@@ -16,10 +16,11 @@ font-family: 'Source Code Pro', monospace;*/
 
 body {
   background-color: var(--amost-black);
+  color: var(--almost-white);
   font-size: 16px;
   font-family: "Inter", sans-serif;
 }
-
+/* Nav Bar */
 .flex-nav {
   display: flex;
   justify-content: space-between;
@@ -90,3 +91,47 @@ body {
 .active {
   display: block;
 }
+/* End Nav Bar */
+
+/* Hero Section */
+h1 {
+  font-size: 48px;
+  font-family: "Source Code Pro", monospace;
+  text-transform: uppercase;
+}
+h2 {
+  font-weight: 500;
+  padding: 6px 0 40px 0;
+  font-size: 20px;
+}
+
+.hero-container {
+  display: flex;
+  padding: 52px 50px;
+}
+
+p {
+  width: 80%;
+}
+
+.hero-left {
+  flex: 1;
+  padding: 42px 0 0 80px;
+}
+
+.emoji {
+  margin-left: 40px;
+  max-width: 65%;
+}
+
+.contact-button {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 16px 30px;
+  border-radius: 21px;
+  background-color: var(--almost-white);
+  color: rgb(54, 54, 54);
+  margin-top: 115px;
+}
+/* End Hero Section */
