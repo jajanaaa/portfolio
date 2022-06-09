@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/1cfaa0e0e7.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css" />
     <title>Yana Pidhayevska portfolio</title>
   </head>
@@ -13,13 +14,13 @@
       <div class="logo"><a href="#">NAVBAR</a></div>
       <ul class="nav-list" id="nav-list">
         <li>
-          <a href="#">About</a>
+          <a href="index.html#about-me-section">About</a>
         </li>
         <li>
-          <a href="#">Projects</a>
+          <a href="index.html#projects">Projects</a>
         </li>
         <li>
-          <a href="#">Contact</a>
+          <a href="index.html#contact">Contact</a>
         </li>
       </ul>
       <div class="menu" id="toggle-button">
@@ -49,6 +50,7 @@
     <!-- End Hero Section -->
 
     <!-- About Me Section -->
+    <div id="about-me-section">
     <h3>Get to know me</h3>
     <div class="about-container">
       <div class="about-left">
@@ -71,15 +73,126 @@
         <a class="contact-button-about" href="">Contact me</a>
       </div>
     </div>
+    </div>
     <!-- End About Me Section -->
+
+    <!-- Projects section -->
+    <div id="projects">
+    <h3>Projects</h3>
+    <div class="projects">
+      <div class="card">
+        <div class="card-content">
+          <h2 class="title-card">Weather App</h2>
+          <p class="p-card">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
+          <span class="languages-marks">HTML</span
+          ><span class="languages-marks">CSS</span
+          ><span class="languages-marks">Java Script</span>
+          <div><a class="card-links live-site" href="#">View live site</a></div>
+          <a class="card-links" href="">View Github Code</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-content">
+          <h2 class="title-card">Weather App</h2>
+          <p class="p-card">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
+          <span class="languages-marks">HTML</span
+          ><span class="languages-marks">CSS</span
+          ><span class="languages-marks">Java Script</span>
+          <a class="card-links live-site" href="">View live site</a>
+          <a class="card-links" href="">View Github Code</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-content">
+          <h2 class="title-card">Weather App</h2>
+          <p class="p-card">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
+          <span class="languages-marks">HTML</span
+          ><span class="languages-marks">CSS</span
+          ><span class="languages-marks">Java Script</span>
+          <a class="card-links live-site" href="">View live site</a>
+          <a class="card-links" href="">View Github Code</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-content">
+          <h2 class="title-card">Weather App</h2>
+          <p class="p-card">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
+          <span class="languages-marks">HTML</span
+          ><span class="languages-marks">CSS</span
+          ><span class="languages-marks">Java Script</span>
+          <a class="card-links live-site" href="">View live site</a>
+          <a class="card-links" href="">View Github Code</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-content">
+          <h2 class="title-card">Weather App</h2>
+          <p class="p-card">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
+          <span class="languages-marks">HTML</span
+          ><span class="languages-marks">CSS</span
+          ><span class="languages-marks">Java Script</span>
+          <a class="card-links live-site" href="">View live site</a>
+          <a class="card-links" href="">View Github Code</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-content">
+          <h2 class="title-card">Weather App</h2>
+          <p class="p-card">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
+          <span class="languages-marks">HTML</span
+          ><span class="languages-marks">CSS</span
+          ><span class="languages-marks">Java Script</span>
+          <a class="card-links live-site" href="">View live site</a>
+          <a class="card-links" href="">View Github Code</a>
+      </div>
+    </div>
+    </div>
+    <!-- End Projects section -->
+
+     <!-- Contact Section -->
+
+     <div class="contact" id="contact">
+<p>DO you have a project in mind?</p>
+     <p class="contact-me">Contact me!
+       <br>
+<a class="contact-mail" href="mailto:yana.pidhayevska@gmail.com">yana.pidhayevska@gmail.com</a></p>
+     <div class="icons">
+<i class="fa-brands fa-linkedin"></i>
+<i class="icon fa-brands fa-github"></i>
+<i class="fa-solid fa-file-arrow-down"></i>
+</div>
+<div>
+  <i class="fa-solid fa-copyright"></i>
+  2022 by Yana with love
+</div>
+</div>
+  
+    
+
+      <!-- End Contact Section -->
+
 
     <script>
       let toggleButton = document.getElementById("toggle-button");
       let navList = document.getElementById("nav-list");
+      let cardLinks = document.querySelectorAll(".card-links");
 
       toggleButton.addEventListener("click", () => {
         navList.classList.toggle("active");
       });
+
     </script>
   </body>
 </html>

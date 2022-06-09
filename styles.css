@@ -15,6 +15,7 @@ font-family: 'Source Code Pro', monospace;*/
 }
 
 body {
+  padding: 0 50px;
   background-color: var(--amost-black);
   color: var(--almost-white);
   font-size: 16px;
@@ -139,7 +140,7 @@ h2 {
 /* About Section */
 .about-container {
   display: flex;
-  padding: 42px 111px;
+  padding: 42px 0;
 }
 
 .about-right {
@@ -172,3 +173,101 @@ h3 {
   width: 80%;
 }
 /* End About Section */
+
+/* Projects Section */
+.p-projects {
+  padding: 20px 0;
+}
+
+.languages-marks {
+  margin: 5px 10px 20px 0;
+  padding: 5px 9px;
+  border-radius: 8px;
+  border: 2px solid black;
+}
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  position: relative;
+  margin: 20px;
+  color: black;
+  background-color: white;
+  width: 335px;
+  height: 396px;
+  border-radius: 10px;
+}
+
+.card-img {
+  position: relative;
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card-content {
+  padding: 219px 20px 10px;
+}
+
+.title-card {
+  padding: 6px 0 27px 0;
+}
+.p-card {
+  padding-bottom: 30px;
+}
+
+.live-site {
+  margin-top: 40px;
+}
+/* End Projects Section */
+
+/* */
+.card-links {
+  text-decoration: none;
+  color: black;
+  background-color: #e4e4e4;
+  text-align: center;
+  margin: 17px 0;
+  padding: 9px 10px;
+  border-radius: 10px;
+  display: none;
+}
+
+.card {
+  background-image: url("./images/2.png");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  position: relative;
+  margin: 20px;
+  color: black;
+  background-color: white;
+  width: 335px;
+  height: 396px;
+  border-radius: 10px;
+}
+
+.contact {
+  text-align: center;
+  margin: 0 auto;
+  font-size: 20px;
+  padding: 100px 0;
+}
+
+.contact-mail {
+  font-size: 40px;
+  text-decoration: none;
+  color: white;
+}
+
+.contact-me {
+  margin-top: 52px;
+  font-size: 28px;
+}
+
+.icons {
+  margin: 100px 0;
+  display: flex;
+  justify-content: space-evenly;
+}
